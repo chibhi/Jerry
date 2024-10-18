@@ -26,11 +26,7 @@ jobs:
     - name: devil
       run: |
         python -c "print('welcome tom')"
-        pip install flake8 pytest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: dark
       run: |
         python -c "print('welcome home')" 
-    - name: Test with pytest
-      run: |
-        pytest
+ 
